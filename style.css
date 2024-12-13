@@ -1,0 +1,75 @@
+.main {
+    width: 100%;
+    background-color:aqua;
+    position: relative;
+
+}
+
+.mainC {
+    background-image: url('plane3.jpeg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+.ticketDiv {
+    background-color: teal;
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    right:250px;
+
+}
+.caption {
+    font-size: 20px;
+    font-family: "Bungee Spice", sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.date {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.select{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+.book {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.show {
+    background-color:burlywood;
+    width: 30%;
+    height: 200px;
+    position:relative;
+    left: 492px;
+    bottom: 100px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
